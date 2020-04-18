@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+# /dist
 
 # local env files
 .env.local
@@ -19,3 +19,14 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+cheatsheet.md
+pureTemplate.html
+blog_backend/db.sqlite3
+.vscode
+blog_backend/__pycache__
+blog_backend/blog_backend/__pycache__
+blog_backend/blogContent/__pycache__
+blog_backend/middlewares/__pycache__
+blog_backend/blogContent/migrations
+nginx_config/access.log
